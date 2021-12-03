@@ -15,9 +15,9 @@ namespace Classes
     class Document
     {
 
-        Title title = null;
-        Body body = null;
-        Footer footer = null;
+        Title title = default!;
+        Body body = default!;
+        Footer footer = default!;
 
         void InitializeDocument()
         {

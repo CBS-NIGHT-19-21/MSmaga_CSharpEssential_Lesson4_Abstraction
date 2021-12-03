@@ -16,7 +16,7 @@ namespace Classes
 {
     class Title : Abstract
     {
-        private string _content;
+        private string _content = default!;
 
         public string Content
         {

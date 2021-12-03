@@ -15,7 +15,7 @@ namespace Classes
 {
     class Body : Abstract
     {
-        private string _content;
+        private string _content = default!;
 
         public string Content
         {

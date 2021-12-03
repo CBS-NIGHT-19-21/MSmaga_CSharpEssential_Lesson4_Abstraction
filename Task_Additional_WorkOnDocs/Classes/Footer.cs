@@ -15,7 +15,7 @@ namespace Classes
 {// наследование
     class Footer : Abstract
     {
-        private string _content;
+        private string _content = default!; 
 
         public string Content
         {
