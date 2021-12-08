@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MyPractice1_InterfaceAsPatternOfRequirements\MyPractice1_InterfaceAsPatternOfRequirements.csproj" />
-  </ItemGroup>
-
 </Project>
