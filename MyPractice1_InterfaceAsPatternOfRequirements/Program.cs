@@ -1,23 +1,34 @@
-﻿// Use methods of implemented Interface IDataCluster
-// with object of Cluster class.
-Cluster cluster = new Cluster();
+﻿namespace MyPractice1_InterfaceAsPatternOfRequirements
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Use methods of implemented Interface IDataCluster
+            // with object of Cluster class.
+            Cluster cluster = new Cluster();
 
-cluster.ReadCluster();
+            cluster.ReadCluster();
 
 
-// Use methods of implemented Interface IDataReader
-// with object of TXTReader class.
-TXTReader txtReader = new TXTReader();
+            // Use methods of implemented Interface IDataReader
+            // with object of TXTReader class.
+            TXTReader txtReader = new TXTReader();
 
-Console.WriteLine(txtReader.GetData(cluster));
-Console.WriteLine(txtReader.ConvertData());
+            Console.WriteLine(txtReader.GetData(cluster));
+            Console.WriteLine(txtReader.ConvertData());
 
-// Use methods of implemented Interface IDataReader
-// with object of CSVReader class.
-CSVReader csvReader = new CSVReader();
+            // Use methods of implemented Interface IDataReader
+            // with object of CSVReader class.
+            CSVReader csvReader = new CSVReader();
 
-Console.WriteLine(csvReader.GetData(cluster));
-Console.WriteLine(csvReader.ConvertData());
+            Console.WriteLine(csvReader.GetData(cluster));
+            Console.WriteLine(csvReader.ConvertData());
 
-// Delay.
-Console.ReadLine();
+            // Delay.
+            Console.ReadLine();
+        }
+    }
+}
+
+
